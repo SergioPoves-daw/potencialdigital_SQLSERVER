@@ -1,3 +1,7 @@
+-- Crear la BD
+CREATE DATABASE Potencial_Digital_SQL;
+USE Potencial_Digital_SQL
+
 -- Crear la tabla CHARLAS
 CREATE TABLE charlas (
 	idCharla smallint PRIMARY KEY IDENTITY,	-- No hace falta especificar NOT NULL porque es PK
