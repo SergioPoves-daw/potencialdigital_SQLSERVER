@@ -1,5 +1,3 @@
--- Crear la BD
-CREATE DATABASE Potencial_Digital_SQL;
 USE Potencial_Digital_SQL
 
 -- Crear la tabla CHARLAS

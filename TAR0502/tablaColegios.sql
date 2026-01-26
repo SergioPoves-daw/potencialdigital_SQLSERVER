@@ -1,3 +1,4 @@
+-- Crear la tabla Colegios
 CREATE TABLE colegios (
 	idColegio smallint PRIMARY KEY,
 	nombre varchar(120) UNIQUE NOT NULL,
