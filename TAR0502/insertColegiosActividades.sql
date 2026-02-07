@@ -1,9 +1,10 @@
 -- Insercción de filas para pruebas
 INSERT INTO colegios_actividades (idColegio, idCharla) VALUES
-	(0, 1),
-	(1, 1),
+	(DEFAULT, 1),
 	(1, 2),
-	(2, 1),
-	(1, 4),
-	(3, 2),
-	(2, 4);
+	(2, NULL),
+	(3, 3),
+	(DEFAULT, NULL),
+	(DEFAULT, 2),
+	(2, 4),
+	(1, 5);

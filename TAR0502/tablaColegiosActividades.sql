@@ -5,6 +5,4 @@ CREATE TABLE colegios_actividades (
 	idCharla smallint NULL,
 	fecha smalldatetime NULL,
 	numero_asistentes smallint  NULL,
-	FOREIGN KEY (idColegio) REFERENCES colegios(idColegio) ON DELETE CASCADE,
-	FOREIGN KEY (idCharla) REFERENCES charlas(idCharla) ON DELETE NO ACTION
 );
